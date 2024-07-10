@@ -4,13 +4,16 @@
     box-sizing: border-box;
 }
 
+body {
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+}
+
 ul {
     padding: 0;
     margin: 0;
     list-style-type: none;
-}
-
-.container {
 }
 
 .header {
@@ -19,11 +22,36 @@ ul {
 }
 
 .links {
-    margin-left: auto;
 }
 
 .links ul {
     display: flex;
     gap: 15px;
     margin: 0 auto;
+}
+
+.hero {
+    display: flex;
+    gap: 16px;
+}
+
+.right-hero {
+
+}
+
+.left-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.left-hero button {
+    width:max-content;
+}
+
+.placeholder {
+    width: 250px;
+    height: 300px;
+    background-color: gray;
 }
