@@ -16,10 +16,24 @@ ul {
     list-style-type: none;
 }
 
+ul, p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero, .header, .footer{ 
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
     padding: 20px 50px;
+}
+
+.logo {
+    font-size: 24px;
 }
 
 .links {
@@ -34,7 +48,7 @@ ul {
 .hero {
     display: flex;
     gap: 16px;
-    padding: 0px 50px;
+    padding: 30px 50px;
 }
 
 .right-hero {
@@ -48,13 +62,18 @@ ul {
     gap: 10px;
 }
 
+.left-hero .main-text {
+    font-weight: bolder;
+    font-size: 48px;
+}
+
 .left-hero button {
     width:max-content;
 }
 
 .placeholder {
-    width: 250px;
-    height: 300px;
+    width: 200px;
+    height: 250px;
     background-color: gray;
 }
 
@@ -108,5 +127,4 @@ ul {
 .footer {
     text-align: center;
     padding: 20px 0px;
-    background-color: gray;   
 }
